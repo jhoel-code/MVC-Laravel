@@ -6,6 +6,8 @@
     <body>
         <h1>Buat Akun Baru!</h1>
         <h3>Sign Up Form</h3>
+        <form action="/welcome" method="post">
+        @csrf
             <table>
                 <tr>
                     <td valign="top">First Name:<br/>
@@ -45,11 +47,11 @@
                 </tr>
                 <tr>
                     <td>
-                        <form action="file:///C:/xampp/htdocs/HTML%20Challenge/welcome.html">
+
                             <input type="submit" value="Sign Up" />
-                        </form>
                     </td>
                 </tr>
             </table>
+            </form>
     </body>
 </html>
